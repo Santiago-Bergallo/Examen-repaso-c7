@@ -2,7 +2,7 @@ import React from 'react'
 import { useGlobaStates } from '../Context/Context'
 
 const Navbar = () => {
-    const {state,dispatch, setLoading} = useGlobaStates()
+    const { state, dispatch, setLoading } = useGlobaStates()
   return (
     <div>
         { state.api === 'dog' ? 
